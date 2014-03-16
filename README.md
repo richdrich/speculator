@@ -39,7 +39,7 @@ Or install it yourself as:
 
 Run the test harness with:
 
-    bundle exec ruby test/examples/run_example.rb \[method\] \[--all\] \[--dogfood\]
+    bundle exec ruby test/examples/run_example.rb [method] [--all] [--dogfood]
 
 __method__ is a method name on Target (__test/examples/target.tb__)
 
