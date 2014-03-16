@@ -38,23 +38,28 @@ Or install it yourself as:
 ## Usage
 
 Run the test harness with:
+
     bundle exec ruby test/examples/run_example.rb \[method\] \[--all\] \[--dogfood\]
 
 __method__ is a method name on Target (__test/examples/target.tb__)
+
 __--all__ generates tests on all methods
+
 __--dogfood__ generates test for internal code
 
 Run the generated example tests with:
+
     bundle exec rspec test/examples/gen_specs
 
 Run the internal dogfood tests with:
+
     bundle exec rspec test/gen_specs
 
 TODO: Write proper usage instructions here
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/speculator/fork )
+1. Fork it ( http://github.com/richdrich/speculator/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
