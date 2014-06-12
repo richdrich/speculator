@@ -1,0 +1,3 @@
+[submodule "test/rails/getting_started"]
+	path = test/rails/getting_started
+	url = git://github.com/richdrich/getting_started
